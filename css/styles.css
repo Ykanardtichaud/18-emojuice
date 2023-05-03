@@ -3,6 +3,7 @@ body {
   margin: auto;
   background: #ddd;
   border:solid 2px black;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 img {
@@ -44,10 +45,21 @@ header {
   background: #ffffff;
 }
 
+header p {
+  font-size: 20px;
+  text-align: center;
+  color: #57bb6b;
+}
+
+main {
+  background-color: #57bb6b;
+  margin: 0;
+  color: #ffffff;
+}
+
 main img {
   display: flex;
   width: 75px;
-  margin: auto;
 }
  
 .decoration { 
@@ -60,22 +72,14 @@ main img {
   width: 27px;
 }
 
-main {
-  background-color: #57bb6b;
-  margin: 0;
-  color: #ffffff;
-  padding: 25px
-}
-
-main p {
-  display: ;
-}
-
 h2 { 
   text-align: center;
+  font-size: 26px;
 }
 
 .section-light {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
   background-color: #ffffff;
   color: black;
   text-align: center;
@@ -86,12 +90,25 @@ h2 {
   color: black;
   border: 2px;
   border-radius: 25px;
-  margin-bottom: 40px;
+  margin: 0 25px 40px 25px;
   padding: 19px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: flex-end;
+}
+
+.card p {
+  font-family: 'Quattrocento', serif;
+  margin: 0;
+  padding-bottom: 50px;
+  color: #7f7c6b;
+}
+
+h3{
+  font-size: 23px;
+  font-family: 'Sriracha', cursive;
+  margin: 0;
 }
 
 .card-light {
@@ -102,6 +119,10 @@ h2 {
   background-color: #c4f2ad;
 }
 
+.card-green h3{ 
+  margin-right: 25px;
+}
+
 .card-light-brown {
   background-color: #d3c6b2;
 }
@@ -109,3 +130,11 @@ h2 {
 .card-pink {
   background-color: #f7a4b4;
 }
+
+a {
+  color: black;
+  font-weight: 700;
+}
+
+font-family: 'Quattrocento', serif;
+font-family: 'Sriracha', cursive;
