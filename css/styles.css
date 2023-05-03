@@ -2,6 +2,7 @@ body {
   max-width: 380px;
   margin: auto;
   background: #ddd;
+  border:solid 2px black;
 }
 
 img {
@@ -73,13 +74,36 @@ h2 {
 }
 
 .card {
-  border: solid 2px black;
-  border-radius: 15px;
+  color: black;
+  border: solid 2px;
+  border-radius: 25px;
   margin-bottom: 40px;
+  padding: 19px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .section-light {
   background-color: #ffffff;
+  color: black;
   text-align: center;
   padding: 75px 50px;
+}
+
+.card-light {
+  background-color: #fff8d7;
+}
+
+.card-green {
+  background-color: #c4f2ad;
+}
+
+.card-light-brown {
+  background-color: #d3c6b2;
+}
+
+.card-pink {
+  background-color: #f7a4b4;
 }
