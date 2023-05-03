@@ -15,7 +15,7 @@ img {
 header {
   background-image: url(../img/backgournd.svg);
   padding: 30px;
-  margin: 0;
+  border-top: solid 10px #57bb6b;
   background-size: cover;
 }
 
@@ -27,7 +27,7 @@ header h1 img{
 .bg-head {
   background-color: #ffffffce;
   margin-bottom: 50px;
-  padding: 30px;
+  padding: 5px 15px;
 }
 
 .cta-container {
@@ -71,7 +71,11 @@ main img ,footer img {
   width: 75px;
   margin: auto;
 }
- 
+ main p {
+  margin-bottom: 50px;
+  font-family: 'Quattrocento', serif;
+ }
+
 .decoration { 
   display: flex;
   flex-flow: row nowrap;
@@ -87,13 +91,13 @@ h2 {
   font-size: 26px;
 }
 
-.section-light {
+.section-light-top {
   font-family: 'Maven Pro', sans-serif;
   font-size: 16px;
   background-color: #ffffff;
   color: black;
   text-align: center;
-  padding: 75px 50px;
+  padding: 40px 50px 100px ;
 }
 
 .card {
@@ -101,11 +105,12 @@ h2 {
   border: 2px;
   border-radius: 25px;
   margin: 0 25px 40px 25px;
-  padding: 19px;
+  padding: 40px 40px 30px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: flex-end;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card p {
@@ -150,10 +155,6 @@ a {
   font-weight: 700;
 }
 
-.green-letter h2 {
-  color: #57bb6b;
-}
-
 footer{
   background-color: white;
   color: #57bb6b;
@@ -168,6 +169,16 @@ footer p{
   margin-bottom: 40px;
 }
 
-font-family: 'Maven Pro', sans-serif;
-font-family: 'Quattrocento', serif;
-font-family: 'Sriracha', cursive;
+.section-light-bottom {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: black;
+  text-align: center;
+  padding: 40px 50px 75px ;
+}
+
+.section-light-bottom h2 {
+  margin-bottom: 35px;
+  color: #57bb6b;
+}
