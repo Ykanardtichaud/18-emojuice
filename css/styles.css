@@ -2,8 +2,8 @@ body {
   max-width: 380px;
   margin: auto;
   background: #ddd;
-  border:solid 2px black;
-  font-family: 'Maven Pro', sans-serif;
+  border: solid 2px black;
+  font-family: "Maven Pro", sans-serif;
   background-color: #ffffff;
 }
 
@@ -19,7 +19,7 @@ header {
   background-size: cover;
 }
 
-header h1 img{
+header h1 img {
   width: 206px;
   margin: auto;
 }
@@ -57,7 +57,7 @@ header p {
   font-size: 20px;
   text-align: center;
   color: #57bb6b;
-  font-family: 'Quattrocento', serif;
+  font-family: "Quattrocento", serif;
 }
 
 main {
@@ -66,38 +66,40 @@ main {
   color: #ffffff;
 }
 
-main img ,footer img {
+main img,
+footer img {
   display: flex;
   width: 75px;
   margin: auto;
 }
- main p {
-  margin-bottom: 50px;
-  font-family: 'Quattrocento', serif;
- }
 
-.decoration { 
+main p {
+  margin-bottom: 50px;
+  font-family: "Quattrocento", serif;
+}
+
+.decoration {
   display: flex;
   flex-flow: row nowrap;
-  margin: auto; 
+  margin: auto;
 }
 
 .tiny {
   width: 27px;
 }
 
-h2 { 
+h2 {
   text-align: center;
   font-size: 26px;
 }
 
 .section-light-top {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-size: 16px;
   background-color: #ffffff;
   color: black;
   text-align: center;
-  padding: 40px 50px 100px ;
+  padding: 40px 50px 100px;
 }
 
 .card {
@@ -114,7 +116,7 @@ h2 {
 }
 
 .card p {
-  font-family: 'Quattrocento', serif;
+  font-family: "Quattrocento", serif;
   margin: 0;
   padding-bottom: 50px;
   color: #7f7c6b;
@@ -124,9 +126,9 @@ h2 {
   margin: 0;
 }
 
-h3{
+h3 {
   font-size: 23px;
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
   margin: 0;
 }
 
@@ -138,7 +140,7 @@ h3{
   background-color: #c4f2ad;
 }
 
-.card-green p{ 
+.card-green p {
   margin: 0 40px 0 0;
 }
 
@@ -155,27 +157,27 @@ a {
   font-weight: 700;
 }
 
-footer{
+footer {
   background-color: white;
   color: #57bb6b;
   font-size: 12px;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   margin: 0;
   padding-bottom: 40px;
 }
 
-footer p{
+footer p {
   text-align: center;
   margin-bottom: 40px;
 }
 
 .section-light-bottom {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   font-size: 16px;
   background-color: #ffffff;
   color: black;
   text-align: center;
-  padding: 40px 50px 75px ;
+  padding: 40px 50px 75px;
 }
 
 .section-light-bottom h2 {
