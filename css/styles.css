@@ -8,3 +8,78 @@ img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  background-image: url(../img/backgournd.svg);
+  padding: 30px;
+  margin: 0;
+  background-size: cover;
+}
+
+.bg-head {
+  background-color: #ffffffce;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+.cta-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.cta {
+  color: #ffffff;
+  background: #57bb6b;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.cta-light {
+  color: #57bb6b;
+  background: #ffffff;
+}
+
+main img {
+  display: flex;
+  width: 105px;
+  margin: auto;
+}
+ 
+.decoration { 
+  display: flex;
+  flex-flow: row nowrap;
+  margin: auto; 
+}
+
+.tiny {
+  width: 27px;
+}
+
+main {
+  background-color: #57bb6b;
+  margin: 0;
+  color: #ffffff;
+}
+
+h2 { 
+  text-align: center;
+}
+.section-color {
+
+}
+
+.card {
+  border: solid 2px black;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.section-light {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 75px 50px;
+}
