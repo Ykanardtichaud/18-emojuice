@@ -46,7 +46,7 @@ header {
 
 main img {
   display: flex;
-  width: 105px;
+  width: 75px;
   margin: auto;
 }
  
@@ -64,25 +64,15 @@ main {
   background-color: #57bb6b;
   margin: 0;
   color: #ffffff;
+  padding: 25px
+}
+
+main p {
+  display: ;
 }
 
 h2 { 
   text-align: center;
-}
-.section-color {
-
-}
-
-.card {
-  color: black;
-  border: solid 2px;
-  border-radius: 25px;
-  margin-bottom: 40px;
-  padding: 19px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: flex-end;
 }
 
 .section-light {
@@ -90,6 +80,18 @@ h2 {
   color: black;
   text-align: center;
   padding: 75px 50px;
+}
+
+.card {
+  color: black;
+  border: 2px;
+  border-radius: 25px;
+  margin-bottom: 40px;
+  padding: 19px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .card-light {
